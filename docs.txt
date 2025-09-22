@@ -1,0 +1,8 @@
+// inicializa classlib na pasta CQRS-ES
+dotnet new classlib -o CQRS.Core
+
+// crie a solution na pasta SM-Post
+dotnet new sln
+
+// cria webapi na pasta Post.Cmd
+dotnet new webapi -o Post.Cmd.Api
