@@ -24,3 +24,7 @@ dotnet sln add ../CQRS-ES/CQRS.Core/CQRS.Core.csproj
 dotnet sln add Post.Cmd/Post.Cmd.Api/Post.Cmd.Api.csproj
 dotnet sln add Post.Cmd/Post.Cmd.Domain/Post.Cmd.Domain.csproj
 dotnet sln add Post.Cmd/Post.Cmd.Infrastructure/Post.Cmd.Infrastructure.csproj
+
+dotnet add Post.Cmd/Post.Cmd.Api/Post.Cmd.Api.csproj reference ../CQRS-ES/CQRS.Core/CQRS.Core.csproj
+dotnet add Post.Cmd/Post.Cmd.Api/Post.Cmd.Api.csproj reference Post.Cmd/Post.Cmd.Domain/Post.Cmd.Domain.csproj
+dotnet add Post.Cmd/Post.Cmd.Api/Post.Cmd.Api.csproj reference Post.Cmd/Post.Cmd.Infrastructure/Post.Cmd.Infrastructure.csproj
