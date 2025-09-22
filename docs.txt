@@ -9,3 +9,6 @@ dotnet new webapi -o Post.Cmd.Api
 
 // cria ainda na pasta Post.Cmd o template class library
 dotnet new classlib -o Post.Cmd.Domain
+
+// cria ainda na mesma pasta (Post.Cmd) a class library Infrastructure
+dotnet new classlib -o Post.Cmd.Infrastructure
