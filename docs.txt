@@ -6,3 +6,6 @@ dotnet new sln
 
 // cria webapi na pasta Post.Cmd
 dotnet new webapi -o Post.Cmd.Api
+
+// cria ainda na pasta Post.Cmd o template class library
+dotnet new classlib -o Post.Cmd.Domain
